@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.supermarket {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.entrance {
+    width: 20px;
+    height: 100px;
+    background-color: #007BFF;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+.stands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    left: 50px;
+}
+
+.stand-row {
+    display: flex;
+    align-items: center;
+}
+
+.stand {
+    width: 100px;
+    height: 100px;
+    background-color: #28a745;
+    border: 1px solid #218838;
+    margin-right: 20px;
+}
+
+.way {
+    width: 20px;
+    height: 100px;
+    background-color: #ffc107;
+    margin-right: 20px;
+}

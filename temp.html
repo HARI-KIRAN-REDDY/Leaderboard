@@ -4,28 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaderboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Supermarket Layout</title>
+    <script src="https://cdn.jsdelivr.net/npm/konva@7.1.2/konva.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="website-name">Leaderboard</div>
-        <h1>Get Your Predictions Right and Claim Your Spot at the TOP!</h1>
-        <table id="leaderboard-table">
-            <thead>
-                <tr>
-                    <th>Player</th>
-                    <th>Match Prediction Score</th>
-                    <th>Most Runs Prediction Score</th>
-                    <th>Most Wickets Prediction Score</th>
-                    <th>Total Score</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </div>
-    <script src="script.js"></script>
+    <div id="container"></div>
+    <script src="stand.js"></script>
 </body>
 
 </html>
